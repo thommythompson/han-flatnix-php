@@ -10,9 +10,9 @@
     <?php
         include 'html/navbar.php';
     ?>
-    <div class="flex-column privacy-body">
-        <h1>Fletnix values your privacy</h1><br>
-        <h3>Collection of Information</h3><br>
+    <div class="container">
+        <h2>Fletnix values your privacy</h2>
+        <h3>Collection of Information</h3>
         <p>We receive and store information about you such as:</p>
         <ul>
             <li>

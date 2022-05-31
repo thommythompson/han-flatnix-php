@@ -10,11 +10,10 @@
     <?php
         include 'html/navbar.php';
     ?>
-    <div class="padding-10vw">
-        <h1>Movie overview</h1>
-        
+    <div class="container">
+        <h2>Movie overview</h2>
             <form>
-                <div class="flex-row stretch-content filter-menu">
+                <div class="split filter-menu">
                     <select name="genre" id="genre">
                         <option value="" default>-- Genre --</option>
                         <option value="action">Action</option>

@@ -1,24 +1,25 @@
 <nav>
-    <div>
-        <a href="index.php">
-            <h2>FLETNIX</h2>
-        </a>
-    </div>
-    <div class="nav-item">
-        <a href="overview.php">
-            <p>Movies</p>
-        </a>
-    </div>
-    <div class="flex-grow-4"></div>
-    <div class="nav-item">
-        <a href="signin.php">
-            <p>Sign In</p>
-        </a>
-    </div>
-    <div class="nav-item">
-        <a href="signup.php">
-            <p>Sign Up</p>
-        </a>
+    <div class="container">
+        <div>
+            <a href="index.php">
+                <h2 class="title">FLETNIX</h2>
+            </a>
+        </div>
+        <div>
+            <a href="overview.php">
+                <p class="menu-item">Movies</p>
+            </a>
+        </div>
+        <div class="nav-spacer"></div>
+        <div>
+            <a href="signin.php">
+                <p class="menu-item">Sign In</p>
+            </a>
+        </div>
+        <div>
+            <a href="signup.php">
+                <p class="menu-item">Sign Up</p>
+            </a>
+        </div>
     </div>
 </nav>
-<div style="margin-bottom: 8vh;"></div>

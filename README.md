@@ -6,9 +6,9 @@ docker run--name flatnix-db -d -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=P@ssw0rd
 # to do
 - add animation
 - index page more href's
-- add back button to player page
-- clean up css
-- add variables (color pallet)
-- text too small on iphone devices = (min width and height for images), font style not based on variabels
+- details page
+- more variabels
 
+- text too small on iphone devices = (min width and height for images), font style not based on variabels
+- w3c validation
 

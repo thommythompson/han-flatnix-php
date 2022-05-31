@@ -10,14 +10,14 @@
     <?php
         include 'html/navbar.php';
     ?>
-    <div class="flex-row about-body">
-        <div class="flex-column gap-2vh">
+    <div class="container split">
+        <div>
             <div>
-                <h1>About Fletnix</h1>
+                <h2>About Fletnix</h2>
                 <p>Lorem Ipsum</p>
             </div>
             <div>
-                <h1>Contact Info</h1>
+                <h2>Contact Info</h2>
                 <ul>
                     <li>Lorem Ipsum</li>
                     <li>Lorem Ipsum</li>
@@ -26,7 +26,7 @@
         </div>
         
         <div class="flex-column">
-            <h1>Send us a message</h1>
+            <h2>Send us a message</h2>
             <form action="" method="POST">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                 <input type="text" id="inputTitle" nclass="form-control" placeholder="Title" required>
