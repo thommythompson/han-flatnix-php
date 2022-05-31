@@ -15,3 +15,4 @@
         <a href="signup.php">Sign Up</a>
     </div>
 </nav>
+<div style="margin-bottom: 8vh;"></div>

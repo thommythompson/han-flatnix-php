@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Flatnix</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Flatnix - Signin</title>
+    <?php
+        include 'html/head.php';
+    ?>
 </head>
 <body>
     <?php

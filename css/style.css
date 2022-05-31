@@ -28,7 +28,6 @@ nav {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 6vh;
     gap: 1vw;
     width: 100%;
     height: 8vh;
@@ -39,6 +38,15 @@ nav {
     background-color: #000000;
 }
 
+ul {
+    padding-left: 1vw;
+}
+
+ul > li {
+    padding-top: 0.5vh;
+    padding-left: 1vw;
+}
+
 footer {
     gap: 1vw;
     width: 100%;
@@ -46,6 +54,12 @@ footer {
     padding-top: 2vh;
     background-color: black;
     margin-top:auto;
+}
+
+footer img {
+    height: 4vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 h1 {
@@ -75,7 +89,69 @@ h3 {
     padding-top: 0.5vh;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #313131;
+}
 
+td, th {
+    border-bottom: 1px solid #313131;
+    text-align: left;
+    padding: 8px;
+}
+
+td > a > img {
+    height: 12vh;
+}
+
+tr:last-child {
+    border-bottom: 0px;
+}
+
+button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #313131;
+    text-shadow: 0 0 10px rgb(142, 142, 142);
+}
+
+label, input, select {
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    width: 100%;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    color: #495057;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 0.5vh;
+    padding-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    padding-top: 0.5vh;
+}
 
 /** quick style classes **/
 .flex-row {
@@ -90,6 +166,16 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.center-content {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.stretch-content {
+    justify-content: space-around;
 }
 
 .gap-2vh {
@@ -113,15 +199,49 @@ h3 {
     text-shadow: 0 0 10px rgb(142, 142, 142);
 }
 
-/** class styles **/
+.padding-10vw {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
 
+.padding-2vw {
+    padding: 2vw;
+}
 
+/** specific styles **/
+.details-body {
+    background-image: url("../img/wallpaper_skyfall.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 
+.details-body > div.flex-row {
+    justify-content: stretch;
+    width: 70vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 2vh;
+}
 
-footer img {
-    height: 4vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+.details-body img {
+    max-height: 60vh;
+}
+
+.details-body img::after {
+    box-shadow: inset 3px 3px 10px 0 #000000;
+    content: '';
+}
+
+.filter-menu {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.filter-menu input, .filter-menu select {
+    max-width: 16vw;
 }
 
 .highlighted-movie {
@@ -140,12 +260,10 @@ footer img {
     width: 36vw;
 }
 
-
-
 .header {
     justify-content: center;
     align-content: center;
-    background-image: url("/img/wallpaper_skyfall.jpeg");
+    background-image: url("../img/wallpaper_skyfall.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -156,31 +274,6 @@ footer img {
     color: #dddddd;
 }
 
-button {
-    background-color: #000000; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #313131;
-    text-shadow: 0 0 10px rgb(142, 142, 142);
-}
-
-ul {
-    padding-left: 1vw;
-}
-
-ul > li {
-    padding-top: 0.5vh;
-    padding-left: 1vw;
-}
-
 .privacy-body {
     justify-content: left;
     padding-top: 10vh;
@@ -189,9 +282,7 @@ ul > li {
     color: #313131;
 }
 
-.padding-10vw {
-    padding: 10vw;
-}
+
 
 .about-body {
     justify-content: left;
@@ -205,12 +296,7 @@ ul > li {
     color: #313131;
 }
 
-form > label, form > input {
-    padding-bottom: 1vh;
-    margin-bottom: 1vh;
-    margin-top: 1vh;
-    width: 100%;
-}
+
 
 form #message {
     height: 16vh;
@@ -250,26 +336,7 @@ form #message {
     text-align: center;
 }
 
-input {
-    display: block;
-    width: 100%;
-    line-height: 1.5;
-    color: #495057;
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin-bottom: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-top: 0.5vh;
-    padding-top: 0.5vh;
-}
+
 
 input[type="textarea"] {
     height: 16vh;
@@ -291,22 +358,15 @@ input[type="textarea"] {
     padding-top: 25vh;
 }
 
+.player-body {
+    background-color: #000000;
+}
+
 .player {
     justify-content: center;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+.player video {
+    height: fit-content;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
