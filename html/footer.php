@@ -1,7 +1,7 @@
 <footer class="flex-column">
     <div class="flex-row">
-        <a class="fletnix-title" href="index.php">
-            <h1>FLETNIX</h1>
+        <a href="index.php">
+            <h2>FLETNIX</h2>
         </a>
     </div>
     <div class="flex-row social-icons">

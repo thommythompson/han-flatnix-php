@@ -1,18 +1,24 @@
-<nav class="flex-row">
+<nav>
     <div>
         <a href="index.php">
-            <h1>FLETNIX</h1>
+            <h2>FLETNIX</h2>
         </a>
     </div>
     <div class="nav-item">
-        <a href="overview.php">Movies</a>
+        <a href="overview.php">
+            <p>Movies</p>
+        </a>
     </div>
-    <div style="flex-grow: 4;"></div>
+    <div class="flex-grow-4"></div>
     <div class="nav-item">
-        <a href="signin.php">Sign In</a>
+        <a href="signin.php">
+            <p>Sign In</p>
+        </a>
     </div>
     <div class="nav-item">
-        <a href="signup.php">Sign Up</a>
+        <a href="signup.php">
+            <p>Sign Up</p>
+        </a>
     </div>
 </nav>
 <div style="margin-bottom: 8vh;"></div>

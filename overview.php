@@ -53,10 +53,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -69,10 +69,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -85,10 +85,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -101,10 +101,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -117,10 +117,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -133,10 +133,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -149,10 +149,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -165,10 +165,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -181,10 +181,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
             <tr>
                 <td>
@@ -197,10 +197,10 @@
                         <p>Dark Knight</p>
                     </a>
                 </td>
-                <td>02:32:00</td>
-                <td>Action, Crime, Drama</td>
-                <td>Christopher Nolan</td>
-                <td>2008</td>
+                <td><p>02:32:00</p></td>
+                <td><p>Action, Crime, Drama</p></td>
+                <td><p>Christopher Nolan</p></td>
+                <td><p>2008</p></td>
             </tr>
         </table>
     </div>

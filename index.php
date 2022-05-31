@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <title>Fletnix - Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="img/favicon_64x64.png">
+    <?php
+        include 'html/head.php';
+    ?>
 </head>
 <body>
     <?php
@@ -15,7 +16,7 @@
                 <h1 class="font-size-huge">FLETNIX</h1>
             </a>
             <div class="flex-row">
-                <h2>All your favorite movies in one place<h2>
+                <h3>"All your favorite movies in one place"<h3>
             </div>
             <div class="flex-row">
                 <a href="overview.php">
