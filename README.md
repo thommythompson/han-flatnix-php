@@ -3,12 +3,14 @@ docker run --name flatnix-web -d -v /Users/thomashofman/Git/han-flatnix-php:/var
 docker run--name flatnix-db -d -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=P@ssw0rd' -p 1433:1433 -v flatnix-db:/var/opt/mssql mcr.microsoft.com/azure-sql-edge
 
 
-# to do
-- add animation
-- index page more href's
-- details page
+# html & css todo
 - more variabels
-
-- text too small on iphone devices = (min width and height for images), font style not based on variabels
 - w3c validation
+
+# php to do
+- import db
+- adjust database script
+- docker compose
+
+- database connection
 

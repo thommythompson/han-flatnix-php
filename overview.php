@@ -34,7 +34,7 @@
             </form>
         <table>
             <tr>
-                <th></th>
+                <th class="hide-at-mobile"></th>
                 <th>Title</th>
                 <th>Duration</th>
                 <th>Genre</th>
@@ -42,7 +42,7 @@
                 <th>Year</th>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_dark_knight.jpg">
                     </a>
@@ -58,7 +58,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_goodfellas.jpg">
                     </a>
@@ -74,7 +74,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_inception.jpg">
                     </a>
@@ -90,7 +90,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_matrix.jpg">
                     </a>
@@ -106,7 +106,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_saving_private_ryan.jpg">
                     </a>
@@ -122,7 +122,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_dark_knight.jpg">
                     </a>
@@ -138,7 +138,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_goodfellas.jpg">
                     </a>
@@ -186,7 +186,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_saving_private_ryan.jpg">
                     </a>

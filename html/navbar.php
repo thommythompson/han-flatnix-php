@@ -2,7 +2,7 @@
     <div class="container">
         <div>
             <a href="index.php">
-                <h2 class="title">FLETNIX</h2>
+                <h2 class="title zoom-animation">FLETNIX</h2>
             </a>
         </div>
         <div>
