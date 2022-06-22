@@ -307,7 +307,7 @@ video {
     }
 
     .hide-at-mobile {
-        display: hide;
+        display: none;
     }
 
     .menu-item {

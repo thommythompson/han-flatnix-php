@@ -154,7 +154,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_inception.jpg">
                     </a>
@@ -170,7 +170,7 @@
                 <td><p>2008</p></td>
             </tr>
             <tr>
-                <td>
+                <td class="hide-at-mobile">
                     <a href="details.php">
                         <img src="img/poster_matrix.jpg">
                     </a>
