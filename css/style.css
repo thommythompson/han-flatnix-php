@@ -152,7 +152,8 @@ button:hover {
 }
 
 input,
-select {
+select,
+textarea {
   display: block;
   padding-bottom: 1vh;
   margin-bottom: 1vh;
@@ -184,10 +185,9 @@ ul > li {
   padding-left: 1vw;
 }
 
-input[type="textarea"] {
+textarea {
   height: 16vh;
   text-align: left;
-  padding-bottom: 13vh;
 }
 
 video {
@@ -300,6 +300,10 @@ a p:hover {
 
 .movie-details-body img {
   margin: 2rem;
+}
+
+.color-white {
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {
